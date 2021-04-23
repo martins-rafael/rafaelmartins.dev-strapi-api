@@ -10,10 +10,10 @@ const axios = require('axios');
 module.exports = {
   lifecycles: {
     async afterCreate(result, data) {
-      axios.post('https://api.netlify.com/build_hooks/6042bbbd1d11bb1352ada54c');
+      axios.post('https://api.vercel.com/v1/integrations/deploy/prj_XFTbEbF4zYx6SPp9IuRm0Es801vZ/c31BrX0A9a');
     },
     async afterUpdate(result, params, data) {
-      axios.post('https://api.netlify.com/build_hooks/6042bbbd1d11bb1352ada54c');
+      axios.post('https://api.vercel.com/v1/integrations/deploy/prj_XFTbEbF4zYx6SPp9IuRm0Es801vZ/c31BrX0A9a');
     }
   }
 };
