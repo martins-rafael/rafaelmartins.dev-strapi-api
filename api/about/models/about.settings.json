@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "About"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "About": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.about",
+      "required": true
+    }
+  }
+}

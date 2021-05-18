@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_abouts",
+  "info": {
+    "name": "About",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

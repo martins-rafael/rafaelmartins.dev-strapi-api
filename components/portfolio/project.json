@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_portfolio_projects",
+  "info": {
+    "name": "Projects",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cover": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "projectTitle": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "feats01": {
+      "type": "string",
+      "required": true
+    },
+    "feats02": {
+      "type": "string",
+      "required": true
+    },
+    "feats03": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
