@@ -11,7 +11,7 @@
     "draftAndPublish": false
   },
   "attributes": {
-    "Welcome": {
+    "welcome": {
       "type": "component",
       "repeatable": false,
       "component": "home.welcome"
