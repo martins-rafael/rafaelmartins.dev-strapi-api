@@ -8,7 +8,7 @@
   "options": {},
   "attributes": {
     "cover": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images"
@@ -34,6 +34,10 @@
       "required": true
     },
     "feats03": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
       "type": "string",
       "required": true
     }
