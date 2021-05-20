@@ -1,11 +1,15 @@
 {
-  "collectionName": "components_portfolio_projects",
+  "kind": "collectionType",
+  "collectionName": "projects",
   "info": {
     "name": "Projects",
-    "icon": "atom",
     "description": ""
   },
-  "options": {},
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
   "attributes": {
     "cover": {
       "model": "file",
@@ -17,7 +21,7 @@
       "required": true,
       "pluginOptions": {}
     },
-    "projectTitle": {
+    "title": {
       "type": "string",
       "required": true
     },
