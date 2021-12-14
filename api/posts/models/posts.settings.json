@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "posts",
   "info": {
-    "name": "posts"
+    "name": "posts",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -21,7 +22,8 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
     },
     "content": {
       "type": "richtext",
@@ -39,6 +41,10 @@
     "category": {
       "model": "categories",
       "via": "posts"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
     }
   }
 }
