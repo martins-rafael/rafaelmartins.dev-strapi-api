@@ -1,0 +1,6 @@
+{
+  "buildpacks": [
+    "https://github.com/martins-rafael/rafaelmartins.dev-strapi-api.git",
+    "heroku/nodejs"
+  ]
+}
